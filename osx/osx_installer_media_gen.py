@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+"""
+Creates a USB installation media for OS X. Tested for 10.10+
+"""
+
 import argparse
 from os import system
 

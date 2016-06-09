@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+Clone a GitHub repo via SSH without specifying the complete link, because #lazy.
+"""
+
 from argparse import ArgumentParser
 from subprocess import run
 from sys import exit

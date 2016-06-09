@@ -1,5 +1,10 @@
 #!/usr/local/bin/python3
 
+"""
+OS X, by default, opens up iTunes if the play/pause button of your headphones is pressed. Stop (or
+resume) this service, so that other apps can potentially listen to these events.
+"""
+
 import os
 import sys
 

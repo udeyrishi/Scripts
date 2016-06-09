@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Fix the author name/email on your past commits.
+
 git filter-branch --env-filter '
 OLD_EMAIL="udey@ualberta.ca"
 CORRECT_NAME="Udey Rishi"
